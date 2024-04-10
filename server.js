@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 connectDB();
 
 const corsOptions = {
-    origin: 'https://aeonaxytaskbackend.onrender.com',
+    origin: 'https://aeonaxy-task-front-end.vercel.app/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
