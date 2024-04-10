@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 connectDB();
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://aeonaxytaskbackend.onrender.com',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
